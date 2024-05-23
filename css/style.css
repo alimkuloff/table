@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: aquamarine;
+}
+
+form{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+form input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+#table button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(221, 87, 15);
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button{
+    transition: 0.2s;}
+
+button:active{
+    transform: scale(0.9);
+}
